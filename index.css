@@ -41,45 +41,13 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.projetos {
-	width: 90%;
-	margin: 0 auto;
-	padding: 50px 0;
+main {
+	margin: 28%;
 }
 
-.projetos a li {
-	display: inline-block;
-	text-align: center;
-	width: 28%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
+main h2 {
+	font-size: 22px;
 }
-
-.projetos a li:hover {
-	border-color: #C78C19;
-}
-
-.projetos a li:active {
-	border-color: #088C19;
-}
-
-.projetos a li:hover h2 {
-	font-size: 32px;
-}
-
-.projetos h2 {
-	font-size: 25px;
-	font-weight: bold;
-}
-
-.projeto-descricao {
-	font-size: 18px;
-}
-
 
 footer {
 	position: fixed;
