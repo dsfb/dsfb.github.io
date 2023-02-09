@@ -1,13 +1,8 @@
-
-body {
-	
-}
-
 #banner {
-	width: 100%;
+	width:100%;
 }
 
-.principal {
+.principal{
 	background: #CCCCCC;
 	padding: 30px;
 }
@@ -17,7 +12,7 @@ body {
 }
 
 .titulo-centralizado {
-	text-align: center;
+	text-align: center
 }
 
 p {
@@ -25,15 +20,15 @@ p {
 }
 
 #missao {
-	font-size: 20px;
+	font-size: 20px
 }
 
 em strong {
-	color: red;
+	color: #FF0000;
 }
 
 .itens {
-	font-style: italic;
+	font-style: italic
 }
 
 .beneficios {
