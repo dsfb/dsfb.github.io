@@ -1,15 +1,21 @@
 
-table {
+@import "index.css";
+
+main table {
 	margin: 20px 0 40px;
 }
 
-thead {
+main table thead {
 	background: #555555;
 	color: white;
 	font-weight: bold;
 }
 
-td, th {
+main table td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
+}
+
+main table tr td:first-child {
+	font-weight: bold;
 }

@@ -1,7 +1,7 @@
 
 header {
 	background: #BBBBBB;
-	padding: 20px 0;
+	padding: 20px 0 30px 0;
 }
 
 .caixa {
@@ -9,6 +9,30 @@ header {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+}
+
+.selecao {
+	float: right;
+	margin-top: 0.75%;
+	margin-right: 20%;
+	border: 2px solid gray;
+	border-radius: 6px;
+}
+
+.selecao-header {
+	padding: 2px;
+}
+
+.selecao-main {
+	padding: 8px;
+	background-color: #BBBBBB;
+	border-color: gray;
+}
+
+.selecao-main h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
 }
 
 header h1 {

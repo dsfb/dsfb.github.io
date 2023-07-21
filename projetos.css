@@ -1,44 +1,12 @@
 
-header {
-	background: #BBBBBB;
-	padding: 20px 0;
+@import "index.css";
+
+main {
+	margin: unset;
 }
 
-.caixa {
-	display: inline-block;
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
-
-header h1 {
-	font-size: 28px;
-	font-weight: bold;
-	margin-left: 16px;
-}
-
-nav {
-	position: absolute;
-	top: 2px;
-	right: 0;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: #C78C19;
-	text-decoration: underline;
+main h2 {
+	font-size: unset;
 }
 
 .projetos {
@@ -80,18 +48,3 @@ nav a:hover {
 	font-size: 18px;
 }
 
-
-footer {
-	position: fixed;
-	text-align: center;
-	background-color: #3A3B3C;
-	padding: 40px 0;
-	bottom: 0;
-	width: 100%;
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin-top: 20px;
-}
