@@ -7,7 +7,7 @@ header {
 .caixa {
 	display: inline-block;
 	position: relative;
-	width: 940px;
+	width: 75%;
 	margin: 0 auto;
 }
 
@@ -15,6 +15,7 @@ header {
 	float: right;
 	margin-top: 0.75%;
 	margin-right: 20%;
+	margin-bottom: 8%;
 	border: 2px solid gray;
 	border-radius: 6px;
 }
@@ -66,24 +67,35 @@ nav a:hover {
 }
 
 main {
-	margin: 28%;
+	margin: 5% 28%;
 }
 
 main h2 {
 	font-size: 22px;
 }
 
+/*.redes {
+	border: 5px solid gray;
+	color: white;
+	font-weight: bold;
+}
+
+.redes-main {
+	background-color: #555555;
+}*/
+
 footer {
 	position: fixed;
 	text-align: center;
-	background-color: #3A3B3C;
+	background: #BBBBBB;
 	padding: 40px 0;
 	bottom: 0;
 	width: 100%;
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
+	#color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
 	margin-top: 20px;
 }
