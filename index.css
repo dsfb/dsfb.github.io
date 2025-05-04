@@ -15,7 +15,7 @@ header {
 	float: right;
 	margin-top: 0.75%;
 	margin-right: 20%;
-	margin-bottom: 8%;
+	margin-bottom: 3%;
 	border: 2px solid gray;
 	border-radius: 6px;
 }
@@ -74,15 +74,41 @@ main h2 {
 	font-size: 22px;
 }
 
-/*.redes {
-	border: 5px solid gray;
+.redes {
+	float: right;
+	margin-top: 3%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border: 2px solid gray;
+	border-radius: 6px;
+	padding: 10px;
 	color: white;
 	font-weight: bold;
 }
 
+.redes a {
+  color: #C78C19;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  text-decoration: underline;
+}
+
 .redes-main {
-	background-color: #555555;
-}*/
+	font-size: 18px;
+	background-color: #BBBBBB;
+}
+
+.redes div {
+	text-align: center;
+	padding-left: 3px;
+	padding-top: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+	border: 2px solid rgb(230, 234, 225);
+	border-radius: 5px;
+}
 
 footer {
 	position: fixed;
